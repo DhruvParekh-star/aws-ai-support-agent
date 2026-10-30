@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "targetId": "CTY8VWEM5C",
+            "name": "refund-processor",
+            "status": "READY",
+            "createdAt": "2026-10-28T13:25:43.650208+00:00",
+            "updatedAt": "2026-10-28T13:25:44.565800+00:00",
+            "targetType": "LAMBDA"
+        },
+        {
+            "targetId": "IG6LWVB8T1",
+            "name": "order-lookup-api",
+            "status": "READY",
+            "createdAt": "2026-10-29T13:02:32.280932+00:00",
+            "updatedAt": "2026-10-29T13:02:34.404748+00:00",
+            "lastSynchronizedAt": "2026-10-29T13:02:34.182443+00:00",
+            "targetType": "API_GATEWAY"
+        },
+        {
+            "targetId": "LUT0DBRNGN",
+            "name": "order-tracker",
+            "status": "READY",
+            "description": "Look up orders and customer details",
+            "createdAt": "2026-10-28T13:24:48.426059+00:00",
+            "updatedAt": "2026-10-28T13:24:48.998279+00:00",
+            "targetType": "LAMBDA"
+        }
+    ]
+}
